@@ -1,0 +1,10 @@
+{
+  "mythic-essence": [
+    {
+      "id": 1,
+      "name": "Zeus",
+      "pantheon": "greek",
+      "isgod": true
+    }
+  ]
+}
