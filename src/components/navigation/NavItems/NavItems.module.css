@@ -1,0 +1,12 @@
+.itemdiv {
+    padding: 10px;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    height: 75px;
+}

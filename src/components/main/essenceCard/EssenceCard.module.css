@@ -1,0 +1,55 @@
+label {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 10, 68);
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: all 0.5s ease;
+}
+.image {
+    padding-top: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+.back {
+    background-color: royalblue;
+    transform: rotateY(-180deg);
+}
+.back p {
+    font-size: 16px;
+    margin-top: 25px;
+    text-align: center;
+}
+label:hover .front {
+    transform: rotateY(-20deg);
+    box-shadow: 10px 0px 8px royalblue;
+}
+input {
+    display: none;
+}
+:checked + .card {
+    transform: rotateY(-180deg);
+}
+label:hover :checked + .card {
+    transform: rotateY(-160deg);
+    background-color: rgb(6, 10, 68);
+}

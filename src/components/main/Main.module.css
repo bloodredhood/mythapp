@@ -1,0 +1,20 @@
+.back {
+    background-color: rgb(162, 201, 252);
+    height: 1000px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+    display: flex;
+}
+
+.flexer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.spreader {
+    padding: 50px;
+}
