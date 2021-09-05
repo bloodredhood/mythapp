@@ -10,7 +10,6 @@ label {
     position: relative;
     width: 100%;
     height: 100%;
-    color: white;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
 }
@@ -18,6 +17,7 @@ label {
     position: absolute;
     width: 100%;
     height: 100%;
+    color: white;
     background-color: rgb(6, 10, 68);
     text-align: center;
     font-size: 50px;
@@ -35,8 +35,9 @@ label {
     transform: rotateY(-180deg);
 }
 .back p {
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 14px;
+    margin: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 label:hover .front {
@@ -46,10 +47,10 @@ label:hover .front {
 input {
     display: none;
 }
-:checked + .card {
+:checked + div {
     transform: rotateY(-180deg);
 }
 label:hover :checked + .card {
     transform: rotateY(-160deg);
-    background-color: rgb(6, 10, 68);
+    box-shadow: 10px 0px 8px rgb(6, 10, 68);
 }
