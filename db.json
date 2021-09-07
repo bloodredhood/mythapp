@@ -1,5 +1,5 @@
 {
-  "mythic-essence": [
+  "essences": [
     {
       "id": 1,
       "name": "Zeus",
@@ -244,6 +244,63 @@
       "pantheon": "Maya",
       "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/3/3d/SkinArt_Xbalanque_Default.jpg",
       "text": "Dotted across the vast forests of the Maya lands stand great pyramids. Painted in blood, sacrifices were made upon these sites to appease Kukulkan. To the world, he brought the four elements, but of wind he keeps control. A great gem, worn about his sinuous neck is said to be the source of all air. To the people, he brought the calendar. That glorious, portentous stone disk, which counts time to a distant future, only to stop abruptly and with horrifying finality."
+    }
+  ],
+  "pantheons": [
+    {
+      "id": 1,
+      "name": "common",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/bf/Achievement_Collections_Gods_Bronze.png"
+    },
+    {
+      "id": 2,
+      "name": "greek",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/7/7f/NewUI_Pantheon_Greek.png"
+    },
+    {
+      "id": 3,
+      "name": "roman",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/18/NewUI_Pantheon_Roman.png"
+    },
+    {
+      "id": 4,
+      "name": "egyptian",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/27/NewUI_Pantheon_Egyptian.png"
+    },
+    {
+      "id": 5,
+      "name": "norse",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/2a/NewUI_Pantheon_Norse.png"
+    },
+    {
+      "id": 6,
+      "name": "celtic",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/a7/NewUI_Pantheon_Celtic.png"
+    },
+    {
+      "id": 7,
+      "name": "slavic",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/1b/NewUI_Pantheon_Slavic.png"
+    },
+    {
+      "id": 8,
+      "name": "hindu",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/f8/NewUI_Pantheon_Hindu.png"
+    },
+    {
+      "id": 9,
+      "name": "chinese",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/0e/NewUI_Pantheon_Chinese.png"
+    },
+    {
+      "id": 10,
+      "name": "japanese",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/10/NewUI_Pantheon_Japanese.png"
+    },
+    {
+      "id": 11,
+      "name": "maya",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/4/42/NewUI_Pantheon_Maya.png"
     }
   ]
 }

@@ -3,6 +3,14 @@ import classes from "./NavItems.module.css"
 
 const NavItems = (props) => {
 
+    const pantheonsList = () => {
+        fetch('https://localhost:3000/pantheons')
+        .then(response => response.json())
+        .then(response => console.log(response))
+    }
+
+    pantheonsList()
+
     const links = [
         { 
             name: "greek",
