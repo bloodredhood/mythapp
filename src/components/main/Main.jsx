@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./Main.module.css"
 import SearchBlock from "./SearchBlock/SearchBlock";
-import EssenceCard from "./essenceCard/EssenceCard";
+import EssenceCards from "./essenceCard/EssenceCards";
+
 
 const Main = (props) => {
-
 
     return (
         <div className={classes.back}>
@@ -13,12 +13,7 @@ const Main = (props) => {
             </div>
             <div className={`${classes.container} ${classes.flexer}`}>
                 <div className={classes.flexer}>
-                    <EssenceCard />
-                    
-                </div>
-                <div className={classes.flexer}>
-                    <EssenceCard />
-                    
+                    <EssenceCards />
                 </div>
             </div>
         </div>
