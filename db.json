@@ -32,7 +32,7 @@
       "id": 5,
       "name": "Janus",
       "pantheon": "Roman",
-      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/81/SkinArt_Hades_Default.jpg",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/04/SkinArt_Janus_Default.jpg",
       "text": "Bearing two faces, Janus is ever looking to the future and to the past, knowing both but controlling neither. He is only the in-between, found in the changing of seasons, at the birth of a child, at the entrances to the temple and the tavern. For this reason the Romans named the first month after him: January – a portal between the old year and the new."
     },
     {
@@ -81,7 +81,7 @@
       "id": 12,
       "name": "Set",
       "pantheon": "Egyptian",
-      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/d/db/SkinArt_Osiris_Default.jpg",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/c/cf/SkinArt_Set_Default.jpg",
       "text": "Set saw the tyrannical control his brother held over the land, the hoarding of strength and power even from his own son. He looked to that son, fair Horus, starved of the means to take the reigns of command when his appointed time came, incapable of leading them into any future but darkness. Set looked upon an unworthy king, and a worse successor, and he chose to act."
     },
     {
@@ -216,13 +216,6 @@
       "pantheon": "Japanese",
       "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/18/SkinArt_Tsukuyomi_Default.jpg",
       "text": "Proud, but violent, he is the God of the Moon and the Night. He is the opposite in every way of his sibling, Amaterasu. Where she is light, he is dark. Where she is kind, he is cruel. But in his cruelty there is purpose. A true leader cannot brook insult. Such was the reason that Tsukuyomi struck off the head of the goddess of plenty, Uke Mochi. Amaterasu did not understand. She cast Tsukuyomi from the heavens. The day would be hers, and the night his."
-    },
-    {
-      "id": 32,
-      "name": "Izanami",
-      "pantheon": "Japanese",
-      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/aa/SkinArt_Izanami_Default.jpg",
-      "text": "As Izanami gave birth to the god of Fire, his searing skin scorched her flesh. Izanami succumbed to death. To rescue her soul, Izanagi traveled to Yomi, the realm of darkness and death. Izanami agreed to take her husband to see the Gods of Yomi, to implore them to free her. Taken by foreboding, Izanagi lit a torch and laid eyes upon his wife. Izanami now appeared a rotting corpse. Frightened and disgusted, Izanagi fled. Escaping the cave entrance, he rolled a boulder in place to block it."
     },
     {
       "id": 32,
