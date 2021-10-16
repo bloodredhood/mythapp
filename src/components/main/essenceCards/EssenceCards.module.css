@@ -1,12 +1,10 @@
 label {
     position: relative;
     width: 250px;
-    height: 385px;
+    height: 400px;
     perspective: 1000px;
     transform-style: preserve-3d;
     cursor: pointer;
-    margin-bottom: 15px;
-    margin-top: 15px;
 }
 .card {
     position: relative;
@@ -55,19 +53,4 @@ input {
 label:hover :checked + .card {
     transform: rotateY(-160deg);
     box-shadow: 10px 0px 8px rgb(6, 10, 68);
-}
-
-.flexer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.titletext {
-    font-size: 40px;
-}
-
-.backtext {
-    font-size: 15px;
-    padding: 0px 10px 0px 10px;
 }

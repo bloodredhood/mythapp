@@ -15,7 +15,7 @@ const EssenceCards = (props) => {
 
   useEffect(() => {
     fetchEssenceItems()
-  }, [])
+  }, [data])
 
   return (
     <div className={classes.flexer}>
@@ -23,16 +23,16 @@ const EssenceCards = (props) => {
           
           <label>
           <input type="checkbox" />
-          <div className={classes.card} key={item.id}>
+          <div className={classes.card}>
             <div className={classes.front}>
               <div className={classes.image}>
-                <img src={item.image} alt={item.name} />
+                <img src={item.image} alt={item.name} key={item.id}/>
               </div>
-              <div className={classes.titletext}>{item.name}</div>
+              <div className={classes.titletext} key={item.id}>{item.name}</div>
             </div>
             <div className={classes.back}>
-              <div className={classes.titletext}>{item.name}</div>
-              <div className={classes.backtext}>{item.text}</div>
+              <div className={classes.titletext} key={item.id}>{item.name}</div>
+              <div className={classes.backtext} key={item.id}>{item.text}</div>
             </div>
           </div>
         </label>
