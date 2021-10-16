@@ -14,6 +14,7 @@ const Celtic = (props) => {
         })
         
     }
+
     console.log(data)
     useEffect(() => {
       fetchEssenceItems()

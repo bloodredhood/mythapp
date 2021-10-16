@@ -60,8 +60,6 @@ const Main = (props) => {
                     </div>
                 </div>
             </div>
-
-
         </>
     )
 }

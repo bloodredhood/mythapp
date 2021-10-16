@@ -1,5 +1,8 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
+import classnames from 'classnames';
+
 import classes from "./EssenceCards.module.css"
+import './test.scss';
 
 const EssenceCards = (props) => {
 
@@ -15,10 +18,10 @@ const EssenceCards = (props) => {
 
   useEffect(() => {
     fetchEssenceItems()
-  }, [data])
+  }, [])
 
   return (
-    <div className={classes.flexer}>
+    <div className={classnames(classes.flexer, 'pupa')}>
       {!data.length ? 'loading...' : data.map(item => (
           
           <label>
