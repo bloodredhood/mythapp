@@ -1,10 +1,12 @@
 label {
     position: relative;
     width: 250px;
-    height: 400px;
+    height: 385px;
     perspective: 1000px;
     transform-style: preserve-3d;
     cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .card {
     position: relative;
@@ -34,12 +36,7 @@ label {
     background-color: royalblue;
     transform: rotateY(-180deg);
 }
-.back p {
-    font-size: 14px;
-    margin: 20px;
-    margin-top: 10px;
-    text-align: center;
-}
+
 label:hover .front {
     transform: rotateY(-20deg);
     box-shadow: 10px 0px 8px royalblue;
@@ -53,4 +50,21 @@ input {
 label:hover :checked + .card {
     transform: rotateY(-160deg);
     box-shadow: 10px 0px 8px rgb(6, 10, 68);
+}
+
+.flexer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titletext {
+    font-size: 40px;
+}
+
+.backtext {
+    font-size: 14px;
+    margin: 20px;
+    margin-top: 10px;
+    text-align: center;
 }

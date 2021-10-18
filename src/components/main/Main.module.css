@@ -1,10 +1,11 @@
 .back {
     background-color: rgb(162, 201, 252);
+    height: auto;
 }
 
 .container {
     margin: 0 auto;
-    width: 1080px;
+    width: 1140px;
     display: flex;
 }
 
@@ -12,8 +13,4 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.spreader {
-    padding: 50px;
 }

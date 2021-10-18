@@ -15,12 +15,11 @@ const EssenceCards = (props) => {
 
   useEffect(() => {
     fetchEssenceItems()
-  }, [data])
+  }, [])
 
   return (
     <div className={classes.flexer}>
       {!data.length ? 'loading...' : data.map(item => (
-          
           <label>
           <input type="checkbox" />
           <div className={classes.card}>
@@ -36,7 +35,6 @@ const EssenceCards = (props) => {
             </div>
           </div>
         </label>
-        
       ))}
     </div>
   )
