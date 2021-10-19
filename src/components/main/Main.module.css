@@ -1,16 +1,23 @@
 .back {
-    background-color: rgb(162, 201, 252);
-    height: auto;
+  background-color: rgb(162, 201, 252);
+  height: auto;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1140px;
-    display: flex;
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
 }
 
 .flexer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.essences {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

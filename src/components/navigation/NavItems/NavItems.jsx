@@ -20,19 +20,18 @@ const NavItems = (props) => {
     }, [])
 
     return (
-        <>
-            <div className={classes.maindiv}>
+              <div className={classes.maindiv}>
                 {
                     !data.length ? 'loading...' : data.map(item => (
                         <NavLink to={`/${item.name}`}>
-                            <div className={classes.itemdiv} key={item.id} >
-                                <img className={classes.images} src={item.link} alt={item.name} />
+                            <div className={classes.itemdiv} >
+                                <img className={classes.images} src={item.link} alt={item.name} key={item.id} />
                             </div>
                         </NavLink>
                     ))
                 }
             </div>
-        </>
+        
     )
 }
 

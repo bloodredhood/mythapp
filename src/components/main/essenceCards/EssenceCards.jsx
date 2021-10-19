@@ -1,25 +1,12 @@
-import React, { useEffect, useState } from "react"
 import classes from "./EssenceCards.module.css"
+import { connect } from 'react-redux'
 
-const EssenceCards = (props) => {
+const EssenceCards = ({syncEssences}) => {
 
-  const [data, setData] = useState([])
-
-  const fetchEssenceItems = () => {
-    fetch('/essences')
-      .then(response => response.json())
-      .then(response => {
-        setData(response)
-      })
-  }
-
-  useEffect(() => {
-    fetchEssenceItems()
-  }, [])
 
   return (
     <div className={classes.flexer}>
-      {!data.length ? 'loading...' : data.map(item => (
+      {!syncEssences.length ? 'loading...' : syncEssences.map(item => (
           <label>
           <input type="checkbox" />
           <div className={classes.card}>
@@ -38,7 +25,13 @@ const EssenceCards = (props) => {
       ))}
     </div>
   )
-
 }
 
-export default EssenceCards
+
+const mapStateToProps = state => {
+  return {
+    syncEssences: state.essences
+  }
+}
+
+export default connect(mapStateToProps,)(EssenceCards)
