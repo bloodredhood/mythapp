@@ -10,17 +10,17 @@ const Essence = ({essence}) => {
         <div className={classes.card}>
           <div className={classes.front}>
             <div className={classes.image}>
-              <img src={essence.image} alt={essence.name} key={essence.id} />
+              <img src={essence.image} alt={essence.name} />
             </div>
-            <div className={classes.titletext} key={essence.id}>
+            <div className={classes.titletext}>
               {essence.name}
             </div>
           </div>
           <div className={classes.back}>
-            <div className={classes.titletext} key={essence.id}>
+            <div className={classes.titletext}>
               {essence.name}
             </div>
-            <div className={classes.backtext} key={essence.id}>
+            <div className={classes.backtext}>
               {essence.text}
             </div>
           </div>

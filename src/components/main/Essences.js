@@ -1,12 +1,14 @@
 import React from "react";
 import {connect} from 'react-redux'
-import Essence from "./Essence";
+import Essence from "./essence/Essence";
 
 
-const Essences = ({ syncEssences }) => {
-  
+const Essences = ({syncEssences}) => {
+
   return (
-    (!syncEssences.length) ? 'no cards!!!' : syncEssences.map(essence => <Essence essence={essence} key={essence.id} />)
+    (!syncEssences.length)
+      ? 'no cards!!!'
+      : syncEssences.map(essence => <Essence essence={essence} key={essence.id}/>)
   )
 }
 
@@ -16,4 +18,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps,null)(Essences)
+export default connect(mapStateToProps, null)(Essences)

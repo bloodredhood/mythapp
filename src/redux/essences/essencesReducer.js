@@ -1,4 +1,4 @@
-import { CREATE_ESSENCE, FETCH_ESSENCES } from "./types"
+import { CREATE_ESSENCE, FETCH_ESSENCES } from "../types"
 
 const initialState = {
     essences: [],

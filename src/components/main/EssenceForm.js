@@ -1,100 +1,90 @@
 import React from "react";
-import { connect } from "react-redux";
-import { createEssence, showAlert } from "../redux/actions";
+import {connect} from "react-redux";
+import {createEssence} from "../../redux/essences/actions";
+import {showAlert} from "../../redux/app/actions";
+import {Button, Form, Input} from "antd";
 
-class EssenceForm extends React.Component {
-  constructor(props) {
-    super(props)
 
-    this.state = {
-      name: "",
-      pantheon: "",
-      image: "",
-      text: ""
-    }
-  }
+const EssenceForm = (props) => {
+  const [form] = Form.useForm();
 
-  submitHandler = event => {
-    event.preventDefault()
-    const {name, pantheon, image, text} = this.state
+  const onReset = () => {
+    form.resetFields();
+  };
 
+  const onFill = () => {
+    form.setFieldsValue({
+      note: 'Hello world!',
+      gender: 'male',
+    });
+  };
+
+  const submitHandler = values => {
+    const {name, pantheon, image, text} = values
+    console.log(values)
     if (!name.trim() || !pantheon.trim() || !image.trim() || !text.trim()) {
-      return this.props.showAlert('нужно заполнить все поля!')
+      props.showAlert('нужно заполнить все поля!');
+      return;
     }
 
     const newEssence = {
       name, pantheon, image, text, id: Date.now().toString()
     }
-    this.props.createEssence(newEssence)
-    this.setState({
-      name: "",
-      pantheon: "",
-      image: "",
-      text: ""
-    })
+    props.createEssence(newEssence)
+    form.resetFields();
   }
 
-  changeInputHandler = event => {
-    event.persist()
-    this.setState(prev => ({...prev, ...{
-      [event.target.name]: event.target.value,
-      [event.target.pantheon]: event.target.value,
-      [event.target.image]: event.target.value,
-      [event.target.text]: event.target.value
-    }}))
-  }
-
-  render() {
-    return (
-      <form onSubmit={this.submitHandler}>
-        
-        {this.props.alert && <div>{this.props.alert}</div>}
-        
-        <div>
-          имя
-          <br/>
-          <input
-          type="text"
-          value={this.state.name}
-          name="name"
-          onChange={this.changeInputHandler}
-          
-          />
-          <br/>
-          пантеон
-          <br/>
-          <input
-          type="text"
-          value={this.state.pantheon}
-          name="pantheon"
-          onChange={this.changeInputHandler}
-          
-          />
-          <br/>
-          ссылка на изображение
-          <br/>
-          <input
-          type="text"
-          value={this.state.image}
-          name="image"
-          onChange={this.changeInputHandler}
-          
-          />
-          <br/>
-          описание
-          <br/>
-          <input
-          type="text"
-          value={this.state.text}
-          name="text"
-          onChange={this.changeInputHandler}
-          
-          />
-        </div>
-        <button type="submit">Создать</button>
-      </form>
-    )
-  }
+  return (
+    <Form
+      name="basic"
+      form={form}
+      labelCol={{ span: 8 }}
+      wrapperCol={{ span: 16 }}
+      initialValues={{
+        name: "",
+        pantheon: "",
+        image: "",
+        text: ""
+      }}
+      onFinish={submitHandler}
+      autoComplete="off"
+    >
+      <Form.Item
+        label="Username"
+        name="name"
+        rules={[{ required: true, message: 'Please input your username!' }]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="pantheon"
+        name="pantheon"
+        rules={[{ required: true, message: 'Please input your pantheon!' }]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="image"
+        name="image"
+        rules={[{ required: true, message: 'Please input your image!' }]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="text"
+        name="text"
+        rules={[{ required: true, message: 'Please input your text!' }]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+        <Button type="primary" htmlType="submit">
+          Submit
+        </Button>
+      </Form.Item>
+      {props.alert && <div>{props.alert}</div>}
+    </Form>
+  )
 }
 
 const mapStateToProps = state => ({

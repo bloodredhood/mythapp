@@ -1,5 +1,5 @@
-import { showAlert } from "./actions"
 import { CREATE_ESSENCE } from "./types"
+import {showAlert} from "./app/actions";
 
 const forbidden = ['fuck', 'spam', 'хуй', 'пизда']
 

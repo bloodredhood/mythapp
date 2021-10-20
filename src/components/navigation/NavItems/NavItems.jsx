@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { NavLink, } from "react-router-dom"
 import classes from "./NavItems.module.css"
 
-const NavItems = (props) => {
+const NavItems = () => {
 
     const [data, setData] = useState([])
 
@@ -23,15 +23,15 @@ const NavItems = (props) => {
               <div className={classes.maindiv}>
                 {
                     !data.length ? 'loading...' : data.map(item => (
-                        <NavLink to={`/${item.name}`}>
+                        <NavLink to={`/${item.name}`} key={item.id}>
                             <div className={classes.itemdiv} >
-                                <img className={classes.images} src={item.link} alt={item.name} key={item.id} />
+                                <img className={classes.images} src={item.link} alt={item.name} />
                             </div>
                         </NavLink>
                     ))
                 }
             </div>
-        
+
     )
 }
 

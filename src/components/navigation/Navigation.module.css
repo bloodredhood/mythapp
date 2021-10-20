@@ -3,4 +3,5 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(6, 10, 68);
+    min-height: 100px;
 }

@@ -1,13 +1,17 @@
 import Navigation from "./components/navigation/Navigation";
 import Main from "./components/main/Main";
+import {Layout} from "antd";
 
+//CSS imports
+import 'antd/dist/antd.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <Layout className="App">
       <Navigation />
       <Main />
-    </div>
+    </Layout>
   );
 }
 

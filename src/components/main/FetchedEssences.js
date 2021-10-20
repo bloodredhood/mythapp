@@ -1,28 +1,28 @@
 import React from "react"
-import { useDispatch, useSelector } from "react-redux"
-import { fetchEssences } from "../redux/actions"
-import Essence from "./Essence"
-
+import {useDispatch, useSelector} from "react-redux"
+import {fetchEssences} from "../../redux/essences/actions"
+import Essence from "./essence/Essence"
+import {Col, Spin} from "antd";
+import {loaderSelector} from "../../redux/app/selectors";
 
 const FetchedEssences = () => {
   const dispatch = useDispatch()
   const essences = useSelector(state => state.essences.fetchedEssences)
-  const loading = useSelector(state => state.app.loading)
-
-  if (loading) {
-    return (
-      "loading..."
-    )
-  }
-
-  if (!essences.length) {
-  return <button
-  onClick={() => dispatch(fetchEssences())}
-  >Загрузить из базы</button>
-  }
+  const loading = useSelector((state) => loaderSelector(state, "fetchEssences"))
 
   return (
-    essences.map(essence => <Essence essence={essence} key={essence.id} />)
+      <Spin tip="Loading..." spinning={!!loading}>
+        <button onClick={() => dispatch(fetchEssences())}>
+          Загрузить из базы
+        </button>
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        {essences.map((essence, i) =>
+          <Col span={6}>
+            <Essence essence={essence} key={"essence" + essence.id + i}/>
+          </Col>
+        )}
+        </div>
+      </Spin>
   )
 }
 

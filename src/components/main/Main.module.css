@@ -1,23 +1,16 @@
-.back {
+.content {
   background-color: rgb(162, 201, 252);
-  height: auto;
+  width: 100%;
+  min-height: calc(100vh - 100px);
 }
 
-.container {
-  margin: 0 auto;
-  width: 1140px;
+.col {
   display: flex;
+  flex-direction: column;
 }
 
-.flexer {
-  display: flex;
+.row {
+  composes: col;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.essences {
-  width: 600px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
