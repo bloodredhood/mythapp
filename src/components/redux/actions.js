@@ -20,9 +20,15 @@ export function hideLoader() {
 }
 
 export function showAlert(text) {
-  return {
-    type: SHOW_ALERT,
-    payload: text
+  return dispatch => {
+    dispatch({
+      type: SHOW_ALERT,
+      payload: text
+    })
+
+    setTimeout(() => {
+      dispatch(hideAlert())
+    }, 3000)
   }
 }
 
@@ -34,12 +40,17 @@ export function hideAlert() {
 
 export function fetchEssences() {
   return async dispatch => {
-    dispatch(showLoader())
-    const response = await fetch("/essences")
-    const json = await response.json()
-    setTimeout(() =>{
-      dispatch({ type: FETCH_ESSENCES, payload: json })
-    dispatch(hideLoader())
-    }, 1000)
+    try {
+      dispatch(showLoader())
+      const response = await fetch("/essences")
+      const json = await response.json()
+      setTimeout(() => {
+        dispatch({ type: FETCH_ESSENCES, payload: json })
+        dispatch(hideLoader())
+      }, 1000)
+    } catch (e) {
+      dispatch(showAlert('не пришло с сервера'))
+      dispatch(hideLoader())
+    }
   }
 }
