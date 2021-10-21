@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+}
+
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+/*I govno*/
+.ant-layout-header {
+  padding: 0;
+}

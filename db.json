@@ -1,0 +1,299 @@
+{
+  "essences": [
+    {
+      "id": 1,
+      "name": "Zeus",
+      "pantheon": "Greek",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/e/e3/SkinArt_Zeus_Default.jpg",
+      "text": "King of Gods, Zeus strives for fairness and justice, but will not hesitate to call down the thunder when there's smiting to be done! With his two brothers, Poseidon and Hades, the three Gods drew lots to decide command of creation. Poseidon became king of the sea, Hades the underworld, and Zeus the sky. From his golden throne atop Mount Olympus, Zeus now rules Gods and Men with his wife Hera, upholding justice, hospitality, oaths, and honesty to all under his domain."
+    },
+    {
+      "id": 2,
+      "name": "Hera",
+      "pantheon": "Greek",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/20/SkinArt_Hera_Default.jpg",
+      "text": "From the summit of Mount Olympus she has watched the gods. Their triumphs, their follies. By her side stands Argus, her champion, the indomitable agent of her will...and vengeance. Hera is Queen of the Gods, born of the Titans, and any who cross her shall know her justice first hand. While the other gods are masters of lightning, or fire or death, Hera is master of divinity itself."
+    },
+    {
+      "id": 3,
+      "name": "Poseidon",
+      "pantheon": "Greek",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/c/ca/SkinArt_Poseidon_Default_V2.jpg",
+      "text": "Deep beneath the turbulent tides of the ocean lingers a God of idle rage. So Poseidon broods on his throne at the ocean floor.With the very tides at his command, an army of sea beasts at his back, and the formidable Kraken at his call, the glowering God of the deep seeks to quench his thirsty rage and plunge all the world in endless, wrathful seas."
+    },
+    {
+      "id": 4,
+      "name": "Hades",
+      "pantheon": "Greek",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/81/SkinArt_Hades_Default.jpg",
+      "text": "Inevitably, death sends everyone to Hades, God of the Underworld. Of the few that have entered the Underworld and come back, all speak dismally of the place, never wishing to return. Yet Hades, himself, rarely leaves the subterranean realm, constantly seeking ways to grow the numbers of the dead. While many fear death and view it as evil, in truth, Hades endeavors only to keep balance. He is stern but fair. For everyone, death is unavoidable and service to Hades inevitable."
+    },
+    {
+      "id": 5,
+      "name": "Janus",
+      "pantheon": "Roman",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/04/SkinArt_Janus_Default.jpg",
+      "text": "Bearing two faces, Janus is ever looking to the future and to the past, knowing both but controlling neither. He is only the in-between, found in the changing of seasons, at the birth of a child, at the entrances to the temple and the tavern. For this reason the Romans named the first month after him: January – a portal between the old year and the new."
+    },
+    {
+      "id": 6,
+      "name": "Cupid",
+      "pantheon": "Roman",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/69/SkinArt_Cupid_Default.jpg",
+      "text": "An arrow from the bow of Cupid, chubby little God of Love, will make anyone give in to passion and desire. Cupid, as he was called by the Romans, is the son of Venus and Mars, or Aphrodite and Ares as they were known by the Greeks. He is the God of love and desire, flying about on feathery wings, shooting passion-tipped arrows at all the creatures of the earth. When struck with one of his arrows, man and beast alike fall in love with the next thing they see."
+    },
+    {
+      "id": 7,
+      "name": "Bacchus",
+      "pantheon": "Roman",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/d/d4/SkinArt_Bacchus_Default_V2.jpg",
+      "text": "Eat, drink, and be merry, for tomorrow you may die. None adhere more vigorously to this creed than Bacchus, the Roman God of Wine, lewd behavior, and madness. He's journeyed across all of Asia, through India, and finally back to Rome, spreading the “Mysteries of the Vine,” a ritual involving incredible amounts of wine to lower inhibitions, freeing one from social constraints, oppression of gender, sexual taboos, and the stresses of life."
+    },
+    {
+      "id": 8,
+      "name": "Mercury",
+      "pantheon": "Roman",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/60/SkinArt_Mercury_Default.jpg",
+      "text": "Mercurial. A word that evokes volatility, quickness, and cunning. But to compare anything to the speed and wit of the Messenger God Mercury would be to compare a hot day to the searing forge of Vulcan, or a blooming rose to the glory of Venus. It is but a pale comparison. Mercury can leap the space between lightning and thunder, outfox the fox king, and reach tomorrow before the sun."
+    },
+    {
+      "id": 9,
+      "name": "Ra",
+      "pantheon": "Egyptian",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/0e/SkinArt_Ra_Default.jpg",
+      "text": "Without the sun, there would be no light, no warmth, no life. Without Ra, there would be no sun. Ra is a guardian, the keeper of Ma'at - order and truth, and master of the sun. Each day he sails across the sky in a golden ship, and each night traverses the underworld, bringing light and warmth to the dead beneath the horizon. For those in the scorched South, Ra was the first God, creator of earth and sky and father to all other Gods."
+    },
+    {
+      "id": 10,
+      "name": "Eset",
+      "pantheon": "Egyptian",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/4/47/SkinArt_Eset_Default.jpg",
+      "text": "From the God of Earth and Goddess of Sky, Eset was born, and she was a Goddess in her own right, loved by wealthy and poor alike, champion to sinners and slaves, artisans and aristocrats. She commanded the force of magic, for she knew the True Names of many things. For in the True Names lie true power. Eset and her husband Osiris ruled Egypt, symbols of order and justice, and led their kingdom to true prosperity."
+    },
+    {
+      "id": 11,
+      "name": "Osiris",
+      "pantheon": "Egyptian",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/d/db/SkinArt_Osiris_Default.jpg",
+      "text": "Never has there been, nor shall there be a king more perfect than Osiris. Son of the Earth God, Geb, Osiris was divine royalty by birth, and all the land his birthright. Benevolence and prosperity were the hallmarks of his reign. Seeking to usurp the throne, Set deceived and murdered his brother, tearing his body to pieces and casting them across the land. Eset, Osiris' wife, secretly fled while Set plunged the kingdom into darkness."
+    },
+    {
+      "id": 12,
+      "name": "Set",
+      "pantheon": "Egyptian",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/c/cf/SkinArt_Set_Default.jpg",
+      "text": "Set saw the tyrannical control his brother held over the land, the hoarding of strength and power even from his own son. He looked to that son, fair Horus, starved of the means to take the reigns of command when his appointed time came, incapable of leading them into any future but darkness. Set looked upon an unworthy king, and a worse successor, and he chose to act."
+    },
+    {
+      "id": 13,
+      "name": "Odin",
+      "pantheon": "Norse",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/1e/SkinArt_Odin_Default.jpg",
+      "text": "Mightiest of the Aesir, warrior and king, the All-Father is a doomed God. Atop Asgard, where Odin presides, he is known as the bringer of war, a sage of wisdom, and the keeper of souls slain in battle. As a warrior, Odin rides his eight legged steed, Sleipnir, and wields the mighty spear Gungnir. As a sage, Odin travels disguised as a simple wanderer, seeking wisdom. As keeper of souls, Odin welcomes slain warriors to his mighty hall of Valhalla."
+    },
+    {
+      "id": 14,
+      "name": "Thor",
+      "pantheon": "Norse",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/7/7e/SkinArt_Thor_Default.jpg",
+      "text": "Thor, as famous as he is bold, is God of the thundering sky. Yet his hammer, Mjolnir is nearly as famous as he is, and Thor will not be parted from it. Odin, the All-Father, bore many children, but none as well known nor as mighty as Thor, who had the strength to move mountains and the power to call lightning from the sky. With Mjolnir in hand, Thor is an unstoppable force that even other Gods would do well to avoid."
+    },
+    {
+      "id": 15,
+      "name": "Loki",
+      "pantheon": "Norse",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/88/SkinArt_Loki_Default.jpg",
+      "text": "Loki, the trickster God, would say villainy is nothing more than a point of view. The point of view of fools too mindless to seize opportunity. The end of times may be at hand. The final battle, Ragnarok, possibly on the horizon, for it was foretold that Loki would break free of his prison and herald the horrific final battle that would leave the Gods slain, the heavens sundered, and the world in ashes. None are more eager for that time of chaos than Loki."
+    },
+    {
+      "id": 16,
+      "name": "Fenrir",
+      "pantheon": "Norse",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/68/SkinArt_Fenrir_Default.jpg",
+      "text": "Mortals must rely on the wisdom of the Gods, but never forget they are fallible.  What are the consequences for their mistakes? They should have slain the wolf-beast Fenrir, but they chose instead to bind him. Despite the warnings and prophecies he would tear Odin apart at Ragnorok and devour the earth and sky, they did not end Loki's son. Now, terror roams free. It is unknown how, but Fenrir is Unbound."
+    },
+    {
+      "id": 17,
+      "name": "Cu Chulainn",
+      "pantheon": "Celtic",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/aa/SkinArt_CuChulainn_Default.jpg",
+      "text": "Thrice born child of Gods and Kings, Cú Chulainn is legend brought to life. A warrior without equal that, alone, held an army at bay; a man of will and courage that resisted both the allure and wrath of the Morrigan; a figure of tragic prophecy, destined for greatness and an early grave. So many legends are there of his achievements they could be spoken for days and yet still more be told. And yet throughout his triumphs, his death loomed constant, foretold and certain."
+    },
+    {
+      "id": 18,
+      "name": "Morrigan",
+      "pantheon": "Celtic",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/68/SkinArt_TheMorrigan_Default.jpg",
+      "text": "Anu, Macha, Badb. Individually, these three Goddesses were sisters, progenitors of sovereignty, war, and death. They were caretakers of their lush green Éire, champions for armored soldiers, guides for the deceased. It is unknown what bound them together. But now they are one. Subtle and manipulative, there is no war The Morrigan did not incite. No dying breath she did not collect. So, beware those that behold her, for The Morrigan controls fate."
+    },
+    {
+      "id": 19,
+      "name": "Chernobog",
+      "pantheon": "Slavic",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/65/SkinArt_Chernobog_Default.jpg",
+      "text": "Black against a blackening sky, the Great Mountain's frozen peak loomed. Night at last swallowed light. Crystalline silence befell the summit. The wicked waited for their God. The pointed peak cracked and opened, two colossal bat-like wings spreading. Creatures of every horror danced and cheered in twitches and fits, calling to their God. His jagged finger pointed and his minions of malice spewed forth to spread fear and death and darkness. Chernobog, Lord of Darkness, grinned."
+    },
+    {
+      "id": 20,
+      "name": "Baba Yaga",
+      "pantheon": "Slavic",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/23/SkinArt_BabaYaga_Default.jpg",
+      "text": "It is an old story. Perhaps the oldest story there is. In the dark woods, there is a witch called Baba Yaga. Sometimes she is a mother. Sometimes she is a daughter. Sometimes she is cruel and sometimes, kind. But always, Baba Yaga is cunning. If you are foolish enough to seek her, she might well punish you for your effrontery before aiding you, or aid you and then tear you to pieces because it amuses her to do so. And sometimes, very rarely, she helps without harm."
+    },
+    {
+      "id": 21,
+      "name": "Ganesha",
+      "pantheon": "Hindu",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/06/SkinArt_Ganesha_Default.jpg",
+      "text": "Generous, warm-hearted, and optimistic, Ganesha has assumed authority over the very thing his mother tasked of him - obstacles. For those whose hearts are filled with boastful arrogance, Ganesha challenges progress. But, for the honest, the hard working, Ganesha clears the way. A life of good fortune, bright skies, and joyous laughter. So, to Ganesha all mortals pray when starting a new endeavor, that their path will be open and their future bright."
+    },
+    {
+      "id": 22,
+      "name": "Kali",
+      "pantheon": "Hindu",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/d/d8/SkinArt_Kali_Default.jpg",
+      "text": "Across the majestic lands of Hindustan rose an army of demons. Devi, the supreme Goddess, emerged to  protect the faithful. Three forms she took during these ancient times. The first, Durga, the Mother of Creation. Astride her tiger, she scattered the demon horde. Rage boiled at the corners of Durga's mind, in the quest to  destroy evil. From the forehead of Durga sprung her wrathful form. Thus was Kali, the Black One, Goddess of Time and Destruction, the second form of Devi born."
+    },
+    {
+      "id": 23,
+      "name": "Agni",
+      "pantheon": "Hindu",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/29/SkinArt_Agni_Default.jpg",
+      "text": "There are few elements as destructive or as purifying as fire. Agni, God of Fire, embodies both of these qualities, with a head for each. He is the twin brother to Indra, God of the Heavens and Rains, and chief among warriors. Conversely, Agni is chief among priests, acting as a messenger between mortals and gods. He is welcome in every home and every hearth and much beloved by the Faithful."
+    },
+    {
+      "id": 24,
+      "name": "Rama",
+      "pantheon": "Hindu",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/00/SkinArt_Rama_Default.jpg",
+      "text": "Ravana's immortal reign subjugates the people. Shiva's boon grants the demon-king invulnerability against gods and beasts. Only mortal men stand a chance of defeating him, but Ravana's might is too potent for a mere man to overcome. To save us, Vishnu took human form. Rama, prince of Ayodhya. At age 16 he was already the perfect embodiment of man. When a neighboring kingdom, cursed by Ravana's magic, asked for aid, Rama answered. He set out and slew a horde of demons."
+    },
+    {
+      "id": 25,
+      "name": "Nu Wa",
+      "pantheon": "Chinese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/c/cd/SkinArt_NuWa_Default.jpg",
+      "text": "When two warring Gods shattered the World Pillar, Heaven and Earth dangerously shifted, and Armageddon was unleashed. Firestorms, floods, and bloodthirsty monsters ravaged the land and stole the lives of more than can be counted. In ages past, Nu Wa, Guardian of Heaven and Earth, hand-crafted all people from clay. They were her creations, her children, her responsibility."
+    },
+    {
+      "id": 26,
+      "name": "Sun Wukong",
+      "pantheon": "Chinese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/b7/SkinArt_SunWukong_Default.jpg",
+      "text": "Warrior, rebel, trickster, monk, Sun Wukong is known by many titles in the East. In his youth, Sun Wukong gained leadership of the monkey tribes, learned secret arts and spells from a Taoist monk, and acquired the legendary Ruyi Jingu Bang from Ao Kuang, a staff that could change size according to his whim. He defied death itself by wiping his name from the Book of Life and Death, and united many of the other monster tribes who sought to ally with him."
+    },
+    {
+      "id": 27,
+      "name": "Ao Kuang",
+      "pantheon": "Chinese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/3/3b/SkinArt_AoKuang_Default.jpg",
+      "text": "Regal, powerful, the Dragon-God of the Eastern Sea commands storms and tides with the flick of a claw, yet he seethes with rage for past humiliations. As one of four Dragon-Gods, Ao Kuang demands tribute from those along the Eastern shores. For their worship, tides remain calm, rivers contained, and rainfall for crops plentiful."
+    },
+    {
+      "id": 28,
+      "name": "Guan Yu",
+      "pantheon": "Chinese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/5/50/SkinArt_GuanYu_Default.jpg",
+      "text": "As a man, Guan Yu was the embodiment of loyalty, honor, and strength. As a God, he is a guardian of justice, a hero to the downtrodden, the Saint of War. After his death, Guan Yu's spirit remained at a holy shrine, coming to the aid of nearby villagers in need, battling the cruel and selfish. From all over the East, worshippers came to the shrine and burned incense to honor him. Such popularity led to Faith, and thus Guan Yu was raised as a God."
+    },
+    {
+      "id": 29,
+      "name": "Amaterasu",
+      "pantheon": "Japanese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/8a/SkinArt_Amaterasu_Default.jpg",
+      "text": "Morning light, which brings warmth and life is Amaterasu, the benevolent Goddess of the sun. Universally, she is adored. Less so are her brothers, namely Susano, bringer of storms, whose jealousy of his sister's popularity drove him to burn her golden rice fields and shatter the sacred looms of her people. Grief stricken at the destruction, Amaterasu sealed herself inside a deep cavern. Her people suffered and the realm fell into crushing darkness."
+    },
+    {
+      "id": 30,
+      "name": "Susano",
+      "pantheon": "Japanese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/6b/SkinArt_Susano_Default.jpg",
+      "text": "Susano committed heinous acts of vandalism and murder. Acts that sent Amaterasu into shameful hiding. To atone for his crimes, to better himself, Susano would slay Orochi. Eight traps he laid, one for each head of the creature. After, the heads were imprisoned. One by one, he chopped the eight necks. Sweeping his blade split the reptilian hide,  revealing a brilliant sword inside: the Kusanagi-no-Tsurugi. To his sister, he gave the blade. An act of atonement, but not an apology."
+    },
+    {
+      "id": 31,
+      "name": "Tsukuyomi",
+      "pantheon": "Japanese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/18/SkinArt_Tsukuyomi_Default.jpg",
+      "text": "Proud, but violent, he is the God of the Moon and the Night. He is the opposite in every way of his sibling, Amaterasu. Where she is light, he is dark. Where she is kind, he is cruel. But in his cruelty there is purpose. A true leader cannot brook insult. Such was the reason that Tsukuyomi struck off the head of the goddess of plenty, Uke Mochi. Amaterasu did not understand. She cast Tsukuyomi from the heavens. The day would be hers, and the night his."
+    },
+    {
+      "id": 32,
+      "name": "Izanami",
+      "pantheon": "Japanese",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/aa/SkinArt_Izanami_Default.jpg",
+      "text": "As Izanami gave birth to the god of Fire, his searing skin scorched her flesh. Izanami succumbed to death. To rescue her soul, Izanagi traveled to Yomi, the realm of darkness and death. Izanami agreed to take her husband to see the Gods of Yomi, to implore them to free her. Taken by foreboding, Izanagi lit a torch and laid eyes upon his wife. Izanami now appeared a rotting corpse. Frightened and disgusted, Izanagi fled. Escaping the cave entrance, he rolled a boulder in place to block it."
+    },
+    {
+      "id": 33,
+      "name": "Kukulkan",
+      "pantheon": "Maya",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/7/73/SkinArt_Kukulkan_Default.jpg",
+      "text": "Dotted across the vast forests of the Maya lands stand great pyramids. Painted in blood, sacrifices were made upon these sites to appease Kukulkan. To the world, he brought the four elements, but of wind he keeps control. A great gem, worn about his sinuous neck is said to be the source of all air. To the people, he brought the calendar. That glorious, portentous stone disk, which counts time to a distant future, only to stop abruptly and with horrifying finality."
+    },
+    {
+      "id": 34,
+      "name": "Xbalanque",
+      "pantheon": "Maya",
+      "image": "https://static.wikia.nocookie.net/smite_gamepedia/images/3/3d/SkinArt_Xbalanque_Default.jpg",
+      "text": "Dotted across the vast forests of the Maya lands stand great pyramids. Painted in blood, sacrifices were made upon these sites to appease Kukulkan. To the world, he brought the four elements, but of wind he keeps control. A great gem, worn about his sinuous neck is said to be the source of all air. To the people, he brought the calendar. That glorious, portentous stone disk, which counts time to a distant future, only to stop abruptly and with horrifying finality."
+    }
+  ],
+  "pantheons": [
+    {
+      "id": 1,
+      "name": "",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/bf/Achievement_Collections_Gods_Bronze.png"
+    },
+    {
+      "id": 2,
+      "name": "greek",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/7/7f/NewUI_Pantheon_Greek.png"
+    },
+    {
+      "id": 3,
+      "name": "roman",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/18/NewUI_Pantheon_Roman.png"
+    },
+    {
+      "id": 4,
+      "name": "egyptian",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/27/NewUI_Pantheon_Egyptian.png"
+    },
+    {
+      "id": 5,
+      "name": "norse",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/2a/NewUI_Pantheon_Norse.png"
+    },
+    {
+      "id": 6,
+      "name": "celtic",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/a7/NewUI_Pantheon_Celtic.png"
+    },
+    {
+      "id": 7,
+      "name": "slavic",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/1b/NewUI_Pantheon_Slavic.png"
+    },
+    {
+      "id": 8,
+      "name": "hindu",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/f8/NewUI_Pantheon_Hindu.png"
+    },
+    {
+      "id": 9,
+      "name": "chinese",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/0/0e/NewUI_Pantheon_Chinese.png"
+    },
+    {
+      "id": 10,
+      "name": "japanese",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/10/NewUI_Pantheon_Japanese.png"
+    },
+    {
+      "id": 11,
+      "name": "maya",
+      "link": "https://static.wikia.nocookie.net/smite_gamepedia/images/4/42/NewUI_Pantheon_Maya.png"
+    }
+  ]
+}
